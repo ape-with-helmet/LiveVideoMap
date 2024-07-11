@@ -1,0 +1,39 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore TensorFlow and Keras cache files
+.keras/
+
+# Ignore compiled CUDA code
+*.ptx
+*.cubin
+
+# Ignore virtual environment
+.venv/
+
+# Ignore any generated data or output files
+data/
+output/
+results/
+
+# Ignore any temporary or backup files
+*.tmp
+*.bak
+
+# Ignore any log or configuration files
+*.log
+*.conf
+
+# Ignore any IDE or editor-specific files
+.idea/
+.vscode/
+
+# Ignore any sensitive or private files
+*.key
+*.pem
+*.crt
+*.env
