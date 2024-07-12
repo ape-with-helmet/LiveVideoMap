@@ -1,3 +1,4 @@
 opencv-python
 mtcnn
-tensorflow
+tensorflow==2.12.0  # or any other specific version that matches Keras version
+Keras==2.12.0  # or any other specific version that matches TensorFlow version
